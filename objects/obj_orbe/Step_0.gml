@@ -4,7 +4,7 @@
 if y <= 32 + tamanho / 2{
 	direction = 360 - direction}
 //se encostar embaixo
-if y >= room_height - 32 - tamanho / 2{
+if y >= room_height - 40 - tamanho / 2{
 	direction = 360 - direction}
 //se a posição horizontal indicar possível colisão com o jogador
 if x <= obj_jogador.x + obj_jogador.sprite_width / 2 + tamanho / 2{
