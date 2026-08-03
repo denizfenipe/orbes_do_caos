@@ -1,5 +1,6 @@
 /// @description step
 
+//movimento
 if keyboard_check(vk_up){
 	y -= velocidade}
 if keyboard_check(vk_down){
