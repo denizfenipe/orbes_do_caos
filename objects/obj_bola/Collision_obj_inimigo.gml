@@ -1,15 +1,15 @@
 /// @description ataca inimigo
 
 inimigo_atacado = instance_nearest(x, y, obj_inimigo)
-inimigo_atacado.vida -= dano
+if other.id == inimigo_atacado{
+	inimigo_atacado.vida -= dano
 
-//física da bola
-
-if place_meeting(x + tamanho / 2, y, inimigo_atacado) or place_meeting(x - tamanho / 2, y, inimigo_atacado){
-	direction = 180 - direction}
-else if place_meeting(x, y + tamanho / 2, inimigo_atacado) or place_meeting(x, y - tamanho / 2, inimigo_atacado){
-	direction = 360 - direction}
-else{
-	direction += 180}
+	//física da bola
+	if positivo(x - inimigo_atacado.x) >= positivo(y - inimigo_atacado.y){
+		direction = 180 - direction
+		if x < inimigo_atacado.x{
+			x -= inimigo_atacado.speed}}
+	else{
+		direction = 360 - direction}}
 
 
