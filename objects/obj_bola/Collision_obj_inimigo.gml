@@ -5,7 +5,7 @@ inimigo_atacado = instance_nearest(x, y, obj_inimigo)
 if other.id == inimigo_atacado{
 	inimigo_atacado.vida -= dano
 	other.image_blend = c_red
-	other.alarm[0] = 1
+	other.alarm[0] = 2
 
 	//física da bola
 	if positivo(x - inimigo_atacado.x) >= positivo(y - inimigo_atacado.y){
