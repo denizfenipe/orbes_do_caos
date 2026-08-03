@@ -15,7 +15,7 @@ if x <= obj_jogador.x + obj_jogador.sprite_width / 2 + tamanho / 2{
 		direction = 180 - direction
 		instance_create_layer(x + 5, y, "bolas", obj_orbe)}}
 //se encostar do lado direito
-if x >= room_width - 32 - tamanho / 2{
+if x >= room_width - tamanho / 2{
 	direction = 180 - direction}
 //se sair da tela pelo lado esquerdo
 if x < - tamanho / 2{
