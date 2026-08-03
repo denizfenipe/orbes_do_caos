@@ -7,7 +7,7 @@ if y <= 32 + tamanho / 2{
 if y >= room_height - 40 - tamanho / 2{
 	direction = 360 - direction}
 //se encostar do lado direito
-if x >= room_width - tamanho / 2 and direction < 90 or direction > 270{
+if x >= room_width - tamanho / 2 and (direction < 90 or direction > 270){
 	direction = 180 - direction}
 //se sair da tela pelo lado esquerdo
 if x < - tamanho / 2{
