@@ -34,9 +34,9 @@
   },
   "name":"aaaaa",
   "resources":[
+    {"id":{"name":"obj_bola","path":"objects/obj_bola/obj_bola.yy",},},
     {"id":{"name":"obj_inimigo","path":"objects/obj_inimigo/obj_inimigo.yy",},},
     {"id":{"name":"obj_jogador","path":"objects/obj_jogador/obj_jogador.yy",},},
-    {"id":{"name":"obj_orbe","path":"objects/obj_orbe/obj_orbe.yy",},},
     {"id":{"name":"obj_parede","path":"objects/obj_parede/obj_parede.yy",},},
     {"id":{"name":"rm_gameplay","path":"rooms/rm_gameplay/rm_gameplay.yy",},},
     {"id":{"name":"scr_geral","path":"scripts/scr_geral/scr_geral.yy",},},
