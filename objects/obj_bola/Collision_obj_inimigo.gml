@@ -1,6 +1,7 @@
 /// @description ataca inimigo
 
 inimigo_atacado = instance_nearest(x, y, obj_inimigo)
+//faz isso rodar apenas uma vez caso colida com mais de um inimigo ao mesmo tempo
 if other.id == inimigo_atacado{
 	inimigo_atacado.vida -= dano
 
@@ -8,7 +9,7 @@ if other.id == inimigo_atacado{
 	if positivo(x - inimigo_atacado.x) >= positivo(y - inimigo_atacado.y){
 		direction = 180 - direction
 		if x < inimigo_atacado.x{
-			x -= inimigo_atacado.speed}}
+			x -= inimigo_atacado.speed * 2}}
 	else{
 		direction = 360 - direction}}
 
