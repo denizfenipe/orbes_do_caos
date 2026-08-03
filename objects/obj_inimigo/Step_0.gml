@@ -2,4 +2,8 @@
 
 //morre
 if vida <= 0{
-	instance_destroy()}
+	instance_destroy()
+	global.inimigos_mortos ++}
+//mata o jogador
+if x < 112{
+	show_message(global.inimigos_mortos)}

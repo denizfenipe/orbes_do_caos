@@ -1,6 +1,6 @@
 /// @description create
 
-velocidade = 4
+velocidade = 5
 instance_create_layer(x + 32, y, "bolas", obj_bola)
 
 

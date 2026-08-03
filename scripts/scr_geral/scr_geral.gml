@@ -1,6 +1,8 @@
 randomise()
 show_debug_overlay(true)
 
+global.inimigos_mortos = 0
+
 function positivo(numero){
 	if numero < 0{
 		numero = numero * -1}
