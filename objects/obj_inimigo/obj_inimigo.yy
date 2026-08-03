@@ -1,12 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_orbe",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_inimigo",
+  "eventList":[],
   "managed":true,
-  "name":"obj_orbe",
+  "name":"obj_inimigo",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -31,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_bola_la",
-    "path":"sprites/spr_bola_la/spr_bola_la.yy",
+    "name":"spr_inimigo_placeholder",
+    "path":"sprites/spr_inimigo_placeholder/spr_inimigo_placeholder.yy",
   },
   "spriteMaskId":null,
   "visible":true,

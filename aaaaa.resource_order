@@ -1,11 +1,13 @@
 {
   "FolderOrderSettings":[],
   "ResourceOrderSettings":[
+    {"name":"obj_inimigo","order":3,"path":"objects/obj_inimigo/obj_inimigo.yy",},
     {"name":"obj_orbe","order":1,"path":"objects/obj_orbe/obj_orbe.yy",},
     {"name":"obj_parede","order":2,"path":"objects/obj_parede/obj_parede.yy",},
     {"name":"spr_bola_cachorro","order":2,"path":"sprites/spr_bola_cachorro/spr_bola_cachorro.yy",},
     {"name":"spr_bola_gato","order":3,"path":"sprites/spr_bola_gato/spr_bola_gato.yy",},
     {"name":"spr_bola_la","order":4,"path":"sprites/spr_bola_la/spr_bola_la.yy",},
     {"name":"spr_bola","order":1,"path":"sprites/spr_bola/spr_bola.yy",},
+    {"name":"spr_inimigo_placeholder","order":5,"path":"sprites/spr_inimigo_placeholder/spr_inimigo_placeholder.yy",},
   ],
 }
