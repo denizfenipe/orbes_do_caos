@@ -5,3 +5,4 @@ repeat(6){
 	_local_spawn += 48
 	instance_create_layer(664, _local_spawn, "inimigos", obj_inimigo)}
 alarm[0] = 240
+obj_inimigo.vida_inicial *= 1.1

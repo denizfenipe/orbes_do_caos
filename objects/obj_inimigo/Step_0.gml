@@ -6,4 +6,4 @@ if vida <= 0{
 	global.inimigos_mortos ++}
 //mata o jogador
 if x < 112{
-	show_message(global.inimigos_mortos)}
+	show_message("você matou " + string(global.inimigos_mortos) + " inimigos")}
