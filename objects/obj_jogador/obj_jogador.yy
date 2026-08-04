@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_placeholder",
-    "path":"sprites/spr_placeholder/spr_placeholder.yy",
+    "name":"spr_placeholder_branco",
+    "path":"sprites/spr_placeholder_branco/spr_placeholder_branco.yy",
   },
   "spriteMaskId":null,
   "visible":true,

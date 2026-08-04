@@ -36,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_inimigo_placeholder",
-    "path":"sprites/spr_inimigo_placeholder/spr_inimigo_placeholder.yy",
+    "name":"spr_placeholder_verde",
+    "path":"sprites/spr_placeholder_verde/spr_placeholder_verde.yy",
   },
   "spriteMaskId":null,
   "visible":true,
