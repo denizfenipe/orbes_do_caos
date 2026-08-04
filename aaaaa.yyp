@@ -35,11 +35,14 @@
   "name":"aaaaa",
   "resources":[
     {"id":{"name":"obj_bola","path":"objects/obj_bola/obj_bola.yy",},},
+    {"id":{"name":"obj_botao_menu","path":"objects/obj_botao_menu/obj_botao_menu.yy",},},
+    {"id":{"name":"obj_botao_sair","path":"objects/obj_botao_sair/obj_botao_sair.yy",},},
     {"id":{"name":"obj_inimigo","path":"objects/obj_inimigo/obj_inimigo.yy",},},
     {"id":{"name":"obj_jogador","path":"objects/obj_jogador/obj_jogador.yy",},},
     {"id":{"name":"obj_parede","path":"objects/obj_parede/obj_parede.yy",},},
     {"id":{"name":"obj_spawner","path":"objects/obj_spawner/obj_spawner.yy",},},
     {"id":{"name":"rm_gameplay","path":"rooms/rm_gameplay/rm_gameplay.yy",},},
+    {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"id":{"name":"scr_geral","path":"scripts/scr_geral/scr_geral.yy",},},
     {"id":{"name":"spr_bola_cachorro","path":"sprites/spr_bola_cachorro/spr_bola_cachorro.yy",},},
     {"id":{"name":"spr_bola_gato","path":"sprites/spr_bola_gato/spr_bola_gato.yy",},},
@@ -50,6 +53,7 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"roomId":{"name":"rm_gameplay","path":"rooms/rm_gameplay/rm_gameplay.yy",},},
   ],
   "templateType":null,
