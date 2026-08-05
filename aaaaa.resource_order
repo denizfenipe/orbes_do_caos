@@ -12,6 +12,7 @@
     {"name":"spr_bola_gato","order":3,"path":"sprites/spr_bola_gato/spr_bola_gato.yy",},
     {"name":"spr_bola_la","order":4,"path":"sprites/spr_bola_la/spr_bola_la.yy",},
     {"name":"spr_inimigo_placeholder","order":5,"path":"sprites/spr_inimigo_placeholder/spr_inimigo_placeholder.yy",},
+    {"name":"spr_inimigo","order":8,"path":"sprites/spr_inimigo/spr_inimigo.yy",},
     {"name":"spr_placeholder_verde","order":7,"path":"sprites/spr_placeholder_verde/spr_placeholder_verde.yy",},
     {"name":"spr_placeholder_vermelho","order":6,"path":"sprites/spr_placeholder_vermelho/spr_placeholder_vermelho.yy",},
   ],

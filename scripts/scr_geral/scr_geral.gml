@@ -1,8 +1,9 @@
 randomise()
 show_debug_overlay(true)
 
+global.pausado = false
 global.inimigos_mortos = 0
-
+global.multiplicador_vida = 1
 //função para deixar o número positivo
 function positivo(numero){
 	if numero < 0{
