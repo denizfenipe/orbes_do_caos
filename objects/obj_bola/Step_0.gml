@@ -1,10 +1,10 @@
 /// @description 
 
 //se encostar em cima
-if y <= 32 + tamanho / 2{
+if y <= 32 + tamanho / 2 and direction < 180{
 	direction = 360 - direction}
 //se encostar embaixo
-if y >= room_height - 40 - tamanho / 2{
+if y >= room_height - 40 - tamanho / 2 and direction > 180{
 	direction = 360 - direction}
 //se encostar do lado direito
 if x >= room_width - tamanho / 2 and (direction < 90 or direction > 270){

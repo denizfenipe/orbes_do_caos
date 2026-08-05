@@ -1,9 +1,9 @@
 /// @description step
 
 //movimento
-if keyboard_check(vk_up) or keyboard_check(ord("W"){
+if keyboard_check(vk_up) or keyboard_check(ord("W")){
 	y -= velocidade}
-if keyboard_check(vk_down) or keyboard_check(ord("S"){
+if keyboard_check(vk_down) or keyboard_check(ord("S")){
 	y += velocidade}
 
 //impedindo que o jogador saia da tela
