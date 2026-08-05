@@ -1,0 +1,6 @@
+
+global.pausado = !global.pausado
+
+
+
+

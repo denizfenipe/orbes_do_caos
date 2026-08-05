@@ -1,5 +1,10 @@
 /// @description 
 
+if global.pausado{
+	speed = 0
+	exit}
+else{
+	speed = 6}
 //se encostar em cima
 if y <= 32 + tamanho / 2 and direction < 180{
 	direction = 360 - direction}

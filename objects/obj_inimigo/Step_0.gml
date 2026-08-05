@@ -1,5 +1,12 @@
 /// @description step
 
+if global.pausado{
+	speed = 0
+	alarm[0] ++
+	exit}
+else{
+	speed = 0.2}
+	
 //morre
 if vida <= 0{
 	instance_destroy()

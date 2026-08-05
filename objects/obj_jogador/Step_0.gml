@@ -1,5 +1,9 @@
 /// @description step
 
+if global.pausado{
+	alarm[0] ++
+	exit}
+	
 //movimento
 if keyboard_check(vk_up) or keyboard_check(ord("W")){
 	y -= velocidade}
