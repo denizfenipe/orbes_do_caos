@@ -25,9 +25,5 @@ if x <= obj_jogador.x + obj_jogador.sprite_width / 2 + tamanho / 2{
 		passou = true}
 	//se estiver na altura do jogador, não tiver passado por ele e se estiver indo para a esquerda
 	if y >= obj_jogador.y - obj_jogador.sprite_height /2 - tamanho / 2 and y <= obj_jogador.y + obj_jogador.sprite_height / 2 + tamanho / 2 and not passou and direction > 90 and direction < 270{
-		direction = obj_jogador.y - y
-		if choose(true, false){
-			instance_create_layer(x + 6, y, "bolas", obj_bola)}}}
-
-
+		direction = obj_jogador.y - y}}
 

@@ -1,6 +1,7 @@
 {
   "FolderOrderSettings":[],
   "ResourceOrderSettings":[
+    {"name":"obj_bola_gato","order":8,"path":"objects/obj_bola_gato/obj_bola_gato.yy",},
     {"name":"obj_bola","order":1,"path":"objects/obj_bola/obj_bola.yy",},
     {"name":"obj_botao_menu","order":5,"path":"objects/obj_botao_menu/obj_botao_menu.yy",},
     {"name":"obj_botao_sair","order":6,"path":"objects/obj_botao_sair/obj_botao_sair.yy",},
