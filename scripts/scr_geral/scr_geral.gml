@@ -5,6 +5,10 @@ global.pausado = false
 global.inimigos_mortos = 0
 global.multiplicador_vida = 1
 global.upgrades_pegos = 0
+global.nivel_bola = 1
+global.nivel_bola_gato = 0
+global.nivel_bola_cachorro = 0
+global.nivel_bola_la = 0
 
 //função para deixar o número positivo
 function positivo(numero){
