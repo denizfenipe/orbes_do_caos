@@ -19,7 +19,7 @@ if other.id == inimigo_atacado{
 		direction = 360 - direction}}
 
 	//spawna bola no próximo frame
-	if choose(true, false, false){
+	if chance_duplicar >= irandom(100){
 		alarm[0] = 2}
 
 
