@@ -10,7 +10,7 @@ global.nivel_bola = 1
 global.nivel_bola_gato = 0
 global.nivel_bola_cachorro = 0
 global.nivel_bola_la = 0
-global.upgrades_possiveis = ["bola", "bola gato", "bola cachorro", "bola lã"]
+global.upgrades_possiveis = ["BOLA", "BOLA GATO", "BOLA CACHORRO", "BOLA LÃ"]
 
 //função para deixar o número positivo
 function positivo(numero){
