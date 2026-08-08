@@ -34,6 +34,7 @@
   },
   "name":"aaaaa",
   "resources":[
+    {"id":{"name":"fnt_geral","path":"fonts/fnt_geral/fnt_geral.yy",},},
     {"id":{"name":"obj_bola_gato","path":"objects/obj_bola_gato/obj_bola_gato.yy",},},
     {"id":{"name":"obj_bola","path":"objects/obj_bola/obj_bola.yy",},},
     {"id":{"name":"obj_botao_menu","path":"objects/obj_botao_menu/obj_botao_menu.yy",},},
