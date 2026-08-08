@@ -1,6 +1,7 @@
 {
   "FolderOrderSettings":[],
   "ResourceOrderSettings":[
+    {"name":"fnt_pixel","order":1,"path":"fonts/fnt_pixel/fnt_pixel.yy",},
     {"name":"obj_bola_cachorro","order":11,"path":"objects/obj_bola_cachorro/obj_bola_cachorro.yy",},
     {"name":"obj_bola_gato","order":8,"path":"objects/obj_bola_gato/obj_bola_gato.yy",},
     {"name":"obj_bola","order":1,"path":"objects/obj_bola/obj_bola.yy",},

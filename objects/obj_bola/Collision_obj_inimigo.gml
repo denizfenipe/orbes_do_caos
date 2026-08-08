@@ -16,6 +16,8 @@ if other.id == inimigo_atacado{
 		if x < inimigo_atacado.x{
 			x -= inimigo_atacado.speed * 2}}
 	else{
-		direction = 360 - direction}}
+		direction = 360 - direction
+		if x < inimigo_atacado.x{
+			x -= inimigo_atacado.speed * 2}}}
 
 

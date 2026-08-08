@@ -34,7 +34,7 @@
   },
   "name":"aaaaa",
   "resources":[
-    {"id":{"name":"fnt_geral","path":"fonts/fnt_geral/fnt_geral.yy",},},
+    {"id":{"name":"fnt_pixel","path":"fonts/fnt_pixel/fnt_pixel.yy",},},
     {"id":{"name":"obj_bola_cachorro","path":"objects/obj_bola_cachorro/obj_bola_cachorro.yy",},},
     {"id":{"name":"obj_bola_gato","path":"objects/obj_bola_gato/obj_bola_gato.yy",},},
     {"id":{"name":"obj_bola","path":"objects/obj_bola/obj_bola.yy",},},
