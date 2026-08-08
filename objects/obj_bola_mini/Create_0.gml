@@ -3,11 +3,11 @@
 direction = random_range(0, 120) - 60
 speed = 6
 passou = false
-tamanho = 24
+tamanho = 12
 chance_duplicar = 50
-if global.nivel_bola_cachorro == 1{
-	dano = 10}
+if global.nivel_bola_la == 1{
+	dano = 5}
 else{
-	dano = 20}
+	dano = 10}
 
 
