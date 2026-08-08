@@ -8,4 +8,4 @@ chance_duplicar = 35
 if global.nivel_bola_gato == 1{
 	dano = 10}
 else{
-	dano = 20}
+	dano = 15}

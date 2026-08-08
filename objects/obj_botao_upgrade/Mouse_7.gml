@@ -1,13 +1,13 @@
 /// @description pegou o upgrade
 
 //verifica qual upgrade é
-if nome == "bola"{
+if nome == "BOLA"{
 	global.nivel_bola ++
 	if x < room_width / 2{
 		array_delete(global.upgrades_possiveis, 0, 1)}
 	else{
 		array_delete(global.upgrades_possiveis, 1, 1)}}
-else if nome == "bola gato"{
+else if nome == "BOLA GATO"{
 	global.nivel_bola_gato ++
 	if global.nivel_bola_gato == 1{
 		array_insert(global.bolas_possuidas, 0, obj_bola_gato)}
@@ -16,7 +16,7 @@ else if nome == "bola gato"{
 			array_delete(global.upgrades_possiveis, 0, 1)}
 		else{
 			array_delete(global.upgrades_possiveis, 1, 1)}}}
-else if nome == "bola cachorro"{
+else if nome == "BOLA CACHORRO"{
 	global.nivel_bola_cachorro ++
 	if global.nivel_bola_cachorro == 1{
 		array_insert(global.bolas_possuidas, 0, obj_bola_cachorro)}
@@ -25,7 +25,7 @@ else if nome == "bola cachorro"{
 			array_delete(global.upgrades_possiveis, 0, 1)}
 		else{
 			array_delete(global.upgrades_possiveis, 1, 1)}}}
-else if nome == "bola lã"{
+else if nome == "BOLA LÃ"{
 	global.nivel_bola_la ++
 	if global.nivel_bola_la == 1{
 		array_insert(global.bolas_possuidas, 0, obj_bola_la)}

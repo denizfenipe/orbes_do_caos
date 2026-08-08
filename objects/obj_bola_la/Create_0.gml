@@ -6,8 +6,8 @@ passou = false
 tamanho = 24
 chance_duplicar = 100
 if global.nivel_bola_la == 1{
-	dano = 10}
-else{
 	dano = 20}
+else{
+	dano = 30}
 
 
