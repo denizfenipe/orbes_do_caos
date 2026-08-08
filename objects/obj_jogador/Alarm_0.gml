@@ -1,6 +1,6 @@
 /// @description spawna bolas
 
-instance_create_layer(x + sprite_width / 2, y, "bolas", obj_bola)
+instance_create_layer(x + sprite_width / 2, y, "bolas", obj_bola_cachorro)
 alarm[0] = 300
 
 

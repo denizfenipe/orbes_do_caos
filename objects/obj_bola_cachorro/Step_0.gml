@@ -27,7 +27,8 @@ if x <= obj_jogador.x + obj_jogador.sprite_width / 2 + tamanho / 2{
 	if y >= obj_jogador.y - obj_jogador.sprite_height /2 - tamanho / 2 and y <= obj_jogador.y + obj_jogador.sprite_height / 2 + tamanho / 2 and not passou and direction > 90 and direction < 270{
 		direction = obj_jogador.y - y
 		if chance_duplicar >= irandom(100){
-			instance_create_layer(x, y, "bolas", obj_bola)}}}
+			global.bolas = array_shuffle(global.bolas_possuidas)
+			instance_create_layer(x, y, "bolas", global.bolas_possuidas[0])}}}
 
 
 
